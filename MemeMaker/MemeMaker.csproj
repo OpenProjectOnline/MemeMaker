@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Authors>terentev-space</Authors>
+        <PackageProjectUrl>https://github.com/op-pro/MemeMaker</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/op-pro/MemeMaker</RepositoryUrl>
+        <Company>terentev-space</Company>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="google-search-results-dotnet" Version="2.0.1" />
+      <PackageReference Include="SixLabors.Fonts" Version="1.0.0-beta15" />
+      <PackageReference Include="SixLabors.ImageSharp" Version="1.0.3" />
+      <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13" />
+      <PackageReference Include="VkNet" Version="1.66.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="fonts" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="fonts\alumni-sans\AlumniSans-Thin.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="fonts\alumni-sans\AlumniSans-Medium.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="fonts\alumni-sans\AlumniSans-ExtraBold.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="fonts\alumni-sans\AlumniSans-SemiBold.ttf">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
